@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E566C6F21490D45A00BC4545 /* TweetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E566C6F11490D45A00BC4545 /* TweetRequest.m */; };
+		E56BF4F11480D9D900ACFE2E /* TimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56BF4F01480D9D900ACFE2E /* TimeLineViewController.m */; };
+		E56BF4F41480DA9700ACFE2E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56BF4F31480DA9700ACFE2E /* Twitter.framework */; };
+		E56BF4F61480DA9E00ACFE2E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56BF4F51480DA9E00ACFE2E /* Accounts.framework */; };
+		E56BF4F91480E3E400ACFE2E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = E56BF4F81480E3E400ACFE2E /* Tweet.m */; };
+		E573C582148DF34F0006DF46 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = E573C581148DF34F0006DF46 /* Placeholder.png */; };
+		E573C5BB148E00280006DF46 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E573C5BA148E00280006DF46 /* MobileCoreServices.framework */; };
+		E573C5BD148E00380006DF46 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E573C5BC148E00380006DF46 /* Security.framework */; };
+		E573C5BF148E00400006DF46 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E573C5BE148E00400006DF46 /* CFNetwork.framework */; };
+		E573C5C1148E004D0006DF46 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E573C5C0148E004D0006DF46 /* libz.dylib */; };
+		E573C5C3148E005D0006DF46 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E573C5C2148E005D0006DF46 /* libxml2.dylib */; };
+		E573C5C5148E00780006DF46 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E573C5C4148E00780006DF46 /* SystemConfiguration.framework */; };
+		E5786E40148E6773002DEF2B /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E5786E3E148E6773002DEF2B /* Downloader.m */; };
+		E594B0FE1480B47900EC1BAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594B0FD1480B47900EC1BAC /* UIKit.framework */; };
+		E594B1001480B47900EC1BAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594B0FF1480B47900EC1BAC /* Foundation.framework */; };
+		E594B1021480B47900EC1BAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594B1011480B47900EC1BAC /* CoreGraphics.framework */; };
+		E594B1041480B47900EC1BAC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E594B1031480B47900EC1BAC /* CoreData.framework */; };
+		E594B10A1480B47900EC1BAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E594B1081480B47900EC1BAC /* InfoPlist.strings */; };
+		E594B10C1480B47900EC1BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E594B10B1480B47900EC1BAC /* main.m */; };
+		E594B1101480B47900EC1BAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E594B10F1480B47900EC1BAC /* AppDelegate.m */; };
+		E594B1131480B47900EC1BAC /* SparkTweet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E594B1111480B47900EC1BAC /* SparkTweet.xcdatamodeld */; };
+		E594B11A1480B49A00EC1BAC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E594B1191480B49A00EC1BAC /* MainStoryboard.storyboard */; };
+		E5FB6BB41496559F005FFAB7 /* DetailedTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FB6BB31496559F005FFAB7 /* DetailedTweetViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E566C6F01490D45A00BC4545 /* TweetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetRequest.h; sourceTree = "<group>"; };
+		E566C6F11490D45A00BC4545 /* TweetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetRequest.m; sourceTree = "<group>"; };
+		E56BF4EF1480D9D900ACFE2E /* TimeLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineViewController.h; sourceTree = "<group>"; };
+		E56BF4F01480D9D900ACFE2E /* TimeLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineViewController.m; sourceTree = "<group>"; };
+		E56BF4F31480DA9700ACFE2E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		E56BF4F51480DA9E00ACFE2E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E56BF4F71480E3E400ACFE2E /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		E56BF4F81480E3E400ACFE2E /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		E57206E71490CB05007A423C /* TweetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetDelegate.h; sourceTree = "<group>"; };
+		E573C581148DF34F0006DF46 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		E573C5BA148E00280006DF46 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E573C5BC148E00380006DF46 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E573C5BE148E00400006DF46 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E573C5C0148E004D0006DF46 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E573C5C2148E005D0006DF46 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E573C5C4148E00780006DF46 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E5786E3D148E6773002DEF2B /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		E5786E3E148E6773002DEF2B /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		E594B0F91480B47900EC1BAC /* SparkTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E594B0FD1480B47900EC1BAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E594B0FF1480B47900EC1BAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E594B1011480B47900EC1BAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E594B1031480B47900EC1BAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E594B1071480B47900EC1BAC /* SparkTweet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparkTweet-Info.plist"; sourceTree = "<group>"; };
+		E594B1091480B47900EC1BAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E594B10B1480B47900EC1BAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E594B10D1480B47900EC1BAC /* SparkTweet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparkTweet-Prefix.pch"; sourceTree = "<group>"; };
+		E594B10E1480B47900EC1BAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E594B10F1480B47900EC1BAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E594B1121480B47900EC1BAC /* SparkTweet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SparkTweet.xcdatamodel; sourceTree = "<group>"; };
+		E594B1191480B49A00EC1BAC /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E5FB6BB21496559F005FFAB7 /* DetailedTweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedTweetViewController.h; sourceTree = "<group>"; };
+		E5FB6BB31496559F005FFAB7 /* DetailedTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedTweetViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E594B0F61480B47900EC1BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E573C5C3148E005D0006DF46 /* libxml2.dylib in Frameworks */,
+				E573C5C1148E004D0006DF46 /* libz.dylib in Frameworks */,
+				E573C5C5148E00780006DF46 /* SystemConfiguration.framework in Frameworks */,
+				E573C5BF148E00400006DF46 /* CFNetwork.framework in Frameworks */,
+				E573C5BD148E00380006DF46 /* Security.framework in Frameworks */,
+				E573C5BB148E00280006DF46 /* MobileCoreServices.framework in Frameworks */,
+				E56BF4F61480DA9E00ACFE2E /* Accounts.framework in Frameworks */,
+				E56BF4F41480DA9700ACFE2E /* Twitter.framework in Frameworks */,
+				E594B0FE1480B47900EC1BAC /* UIKit.framework in Frameworks */,
+				E594B1001480B47900EC1BAC /* Foundation.framework in Frameworks */,
+				E594B1021480B47900EC1BAC /* CoreGraphics.framework in Frameworks */,
+				E594B1041480B47900EC1BAC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E573C580148DF34F0006DF46 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E573C581148DF34F0006DF46 /* Placeholder.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		E594B0EE1480B47900EC1BAC = {
+			isa = PBXGroup;
+			children = (
+				E594B1051480B47900EC1BAC /* SparkTweet */,
+				E594B0FC1480B47900EC1BAC /* Frameworks */,
+				E594B0FA1480B47900EC1BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E594B0FA1480B47900EC1BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E594B0F91480B47900EC1BAC /* SparkTweet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E594B0FC1480B47900EC1BAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E573C5C2148E005D0006DF46 /* libxml2.dylib */,
+				E573C5C0148E004D0006DF46 /* libz.dylib */,
+				E573C5C4148E00780006DF46 /* SystemConfiguration.framework */,
+				E573C5BE148E00400006DF46 /* CFNetwork.framework */,
+				E573C5BC148E00380006DF46 /* Security.framework */,
+				E573C5BA148E00280006DF46 /* MobileCoreServices.framework */,
+				E56BF4F51480DA9E00ACFE2E /* Accounts.framework */,
+				E56BF4F31480DA9700ACFE2E /* Twitter.framework */,
+				E594B0FD1480B47900EC1BAC /* UIKit.framework */,
+				E594B0FF1480B47900EC1BAC /* Foundation.framework */,
+				E594B1011480B47900EC1BAC /* CoreGraphics.framework */,
+				E594B1031480B47900EC1BAC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E594B1051480B47900EC1BAC /* SparkTweet */ = {
+			isa = PBXGroup;
+			children = (
+				E594B10E1480B47900EC1BAC /* AppDelegate.h */,
+				E594B10F1480B47900EC1BAC /* AppDelegate.m */,
+				E56BF4EF1480D9D900ACFE2E /* TimeLineViewController.h */,
+				E56BF4F01480D9D900ACFE2E /* TimeLineViewController.m */,
+				E5FB6BB21496559F005FFAB7 /* DetailedTweetViewController.h */,
+				E5FB6BB31496559F005FFAB7 /* DetailedTweetViewController.m */,
+				E57206E71490CB05007A423C /* TweetDelegate.h */,
+				E566C6F01490D45A00BC4545 /* TweetRequest.h */,
+				E566C6F11490D45A00BC4545 /* TweetRequest.m */,
+				E56BF4F71480E3E400ACFE2E /* Tweet.h */,
+				E56BF4F81480E3E400ACFE2E /* Tweet.m */,
+				E5786E3D148E6773002DEF2B /* Downloader.h */,
+				E5786E3E148E6773002DEF2B /* Downloader.m */,
+				E573C580148DF34F0006DF46 /* Image */,
+				E594B1061480B47900EC1BAC /* Supporting Files */,
+			);
+			path = SparkTweet;
+			sourceTree = "<group>";
+		};
+		E594B1061480B47900EC1BAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E594B1111480B47900EC1BAC /* SparkTweet.xcdatamodeld */,
+				E594B1191480B49A00EC1BAC /* MainStoryboard.storyboard */,
+				E594B1071480B47900EC1BAC /* SparkTweet-Info.plist */,
+				E594B1081480B47900EC1BAC /* InfoPlist.strings */,
+				E594B10B1480B47900EC1BAC /* main.m */,
+				E594B10D1480B47900EC1BAC /* SparkTweet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E594B0F81480B47900EC1BAC /* SparkTweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E594B1161480B47900EC1BAC /* Build configuration list for PBXNativeTarget "SparkTweet" */;
+			buildPhases = (
+				E594B0F51480B47900EC1BAC /* Sources */,
+				E594B0F61480B47900EC1BAC /* Frameworks */,
+				E594B0F71480B47900EC1BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparkTweet;
+			productName = SparkTweet;
+			productReference = E594B0F91480B47900EC1BAC /* SparkTweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E594B0F01480B47900EC1BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E594B0F31480B47900EC1BAC /* Build configuration list for PBXProject "SparkTweet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E594B0EE1480B47900EC1BAC;
+			productRefGroup = E594B0FA1480B47900EC1BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E594B0F81480B47900EC1BAC /* SparkTweet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E594B0F71480B47900EC1BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E594B10A1480B47900EC1BAC /* InfoPlist.strings in Resources */,
+				E594B11A1480B49A00EC1BAC /* MainStoryboard.storyboard in Resources */,
+				E573C582148DF34F0006DF46 /* Placeholder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E594B0F51480B47900EC1BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E594B10C1480B47900EC1BAC /* main.m in Sources */,
+				E594B1101480B47900EC1BAC /* AppDelegate.m in Sources */,
+				E594B1131480B47900EC1BAC /* SparkTweet.xcdatamodeld in Sources */,
+				E56BF4F11480D9D900ACFE2E /* TimeLineViewController.m in Sources */,
+				E56BF4F91480E3E400ACFE2E /* Tweet.m in Sources */,
+				E5786E40148E6773002DEF2B /* Downloader.m in Sources */,
+				E566C6F21490D45A00BC4545 /* TweetRequest.m in Sources */,
+				E5FB6BB41496559F005FFAB7 /* DetailedTweetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E594B1081480B47900EC1BAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E594B1091480B47900EC1BAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E594B1141480B47900EC1BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E594B1151480B47900EC1BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E594B1171480B47900EC1BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkTweet/SparkTweet-Prefix.pch";
+				INFOPLIST_FILE = "SparkTweet/SparkTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E594B1181480B47900EC1BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparkTweet/SparkTweet-Prefix.pch";
+				INFOPLIST_FILE = "SparkTweet/SparkTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E594B0F31480B47900EC1BAC /* Build configuration list for PBXProject "SparkTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E594B1141480B47900EC1BAC /* Debug */,
+				E594B1151480B47900EC1BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E594B1161480B47900EC1BAC /* Build configuration list for PBXNativeTarget "SparkTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E594B1171480B47900EC1BAC /* Debug */,
+				E594B1181480B47900EC1BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E594B1111480B47900EC1BAC /* SparkTweet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E594B1121480B47900EC1BAC /* SparkTweet.xcdatamodel */,
+			);
+			currentVersion = E594B1121480B47900EC1BAC /* SparkTweet.xcdatamodel */;
+			path = SparkTweet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E594B0F01480B47900EC1BAC /* Project object */;
+}
